@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab9c70c37e4caac41a7f1e7c36e42630, type: 3}
+  m_Name: SMG
+  m_EditorClassIdentifier: 
+  gunName: SMG
+  gunType: 1
+  gunBuyCost: 1500
+  gunUpCost: 150
+  gunPrefab: {fileID: 1801837882130795653, guid: 66ca942be406c7b4d9d97f22acf2d795,
+    type: 3}
+  gunUIPrefab: {fileID: 1801837882130795653, guid: 0ad09dd81121ac247850956387ca9111,
+    type: 3}
+  firePos: {fileID: 0}
+  damage: 12
+  fireDistance: 30
+  bulletNum: 1
+  initAmmoRemain: 50
+  ammoRemain: 50
+  magAmmo: 0
+  magCapacity: 25
+  timeBetweenFire: 0.12
+  reloadTime: 1
+  maxSpread: 5
+  stability: 4
+  restoreFromRecoilSpeed: 1.7
+  shotClip: {fileID: 0}
+  reloadClip: {fileID: 0}

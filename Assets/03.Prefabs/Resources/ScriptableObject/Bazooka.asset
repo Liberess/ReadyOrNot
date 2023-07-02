@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab9c70c37e4caac41a7f1e7c36e42630, type: 3}
+  m_Name: Bazooka
+  m_EditorClassIdentifier: 
+  gunName: Bazooka
+  gunType: 7
+  gunBuyCost: 150000
+  gunUpCost: 15000
+  gunPrefab: {fileID: 1247223829425721374, guid: f3aa0537edf19a840a5ee3762f7bb9ed,
+    type: 3}
+  gunUIPrefab: {fileID: 1247223829425721374, guid: f3aa0537edf19a840a5ee3762f7bb9ed,
+    type: 3}
+  empty: 0
+  damage: 100
+  fireDistance: 50
+  bulletNum: 1
+  initAmmoRemain: 10
+  ammoRemain: 10
+  magAmmo: 0
+  magCapacity: 1
+  timeBetweenFire: 3
+  reloadTime: 4
+  maxSpread: 0
+  stability: 10
+  restoreFromRecoilSpeed: 3
+  shotClip: {fileID: 0}
+  reloadClip: {fileID: 0}

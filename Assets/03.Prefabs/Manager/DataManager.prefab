@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9202617742404945409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9202617742404945411}
+  - component: {fileID: 9202617742404945408}
+  - component: {fileID: 2139537969}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9202617742404945411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9202617742404945409}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9202617742404945408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9202617742404945409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867b88fcde652c5458eaadf69d830c87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mGameData:
+    coin: 0
+    exp: 0
+    level: 0
+    killCount: 0
+    deathCount: 0
+    bgm: 0
+    sfx: 0
+  mUserData:
+    haveGuns: 000000000000000000
+    gunLevels: 000000000000000000000000000000000000000000000000000000000000000000000000
+    gunDatas:
+    - {fileID: 11400000, guid: 49e1c6e0d69ff8c42a5d267157435357, type: 2}
+    - {fileID: 11400000, guid: 2c887dda158cd1842958f491cec5ecbf, type: 2}
+    - {fileID: 11400000, guid: a4ec0570b0b280d42a1dfbcb9aa9ae96, type: 2}
+    - {fileID: 11400000, guid: 17fffd83fe839a149b76cc1870b5d16a, type: 2}
+    - {fileID: 11400000, guid: 224a56e932064be42955de4953535958, type: 2}
+    - {fileID: 11400000, guid: 1973e7252055e4e459e8f0c0fc94fa62, type: 2}
+    - {fileID: 11400000, guid: 2252fc44bf4ba8f4a9fa9470669be109, type: 2}
+    - {fileID: 11400000, guid: 2e3d3dc56a2836b4f86cafa7ad748b9e, type: 2}
+    - {fileID: 11400000, guid: c465eedc9f7f74b43b37c09bab8cde0a, type: 2}
+    equipGunData: {fileID: 0}
+    equipGunNum: 0
+    statUpLevels: 000000000000000000000000
+    animCtrls:
+    - {fileID: 9100000, guid: 63f3896f76d4ef84e920fc532137ab2b, type: 2}
+    - {fileID: 9100000, guid: 67facfcf32166514c8d32ac3049d7f51, type: 2}
+    - {fileID: 9100000, guid: 5709995bc6dc14b46ae8ee1caaa14b6c, type: 2}
+    - {fileID: 9100000, guid: 565b415bef126664d95cb5bd8746d3b8, type: 2}
+    - {fileID: 9100000, guid: 01153dbcb7ce08c4195de7bb4eb88c20, type: 2}
+    - {fileID: 9100000, guid: 8542eeabb8c339a469a4ae3c8895e229, type: 2}
+    - {fileID: 9100000, guid: 348fbd908baf62943acba83617e3ff47, type: 2}
+    - {fileID: 9100000, guid: 181abab0c87e9614fb2064d0a13e3b47, type: 2}
+    - {fileID: 9100000, guid: 583a521535afc5143925b4202cce7969, type: 2}
+    animCtrlNum: 0
+--- !u!114 &2139537969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9202617742404945409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

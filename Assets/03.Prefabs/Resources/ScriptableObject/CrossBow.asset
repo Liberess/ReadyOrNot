@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab9c70c37e4caac41a7f1e7c36e42630, type: 3}
+  m_Name: CrossBow
+  m_EditorClassIdentifier: 
+  gunName: CrossBow
+  gunType: 4
+  gunBuyCost: 20000
+  gunUpCost: 2000
+  gunPrefab: {fileID: 2797637213908533713, guid: ca77f62d2888f6c4a874efb77151ed72,
+    type: 3}
+  gunUIPrefab: {fileID: 2797637213908533713, guid: ca77f62d2888f6c4a874efb77151ed72,
+    type: 3}
+  empty: 0
+  damage: 30
+  fireDistance: 20
+  bulletNum: 1
+  initAmmoRemain: 20
+  ammoRemain: 20
+  magAmmo: 0
+  magCapacity: 1
+  timeBetweenFire: 0.4
+  reloadTime: 3
+  maxSpread: 0
+  stability: 10
+  restoreFromRecoilSpeed: 3
+  shotClip: {fileID: 0}
+  reloadClip: {fileID: 0}

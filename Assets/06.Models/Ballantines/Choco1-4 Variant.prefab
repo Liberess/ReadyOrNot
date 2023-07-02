@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &1885869688853353615
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304421593872575365}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.19554785, y: 0.29723328, z: 0.34968293}
+  m_Center: {x: 0.000000048428774, y: -0.00000009685757, z: -0.0009910021}
+--- !u!54 &2880251580633309463
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304421593872575365}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1001 &2223464671712810708
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 23caea6117f48534a97d712103c3d151,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 23caea6117f48534a97d712103c3d151,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.7300261
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 23caea6117f48534a97d712103c3d151,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.530187
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 23caea6117f48534a97d712103c3d151,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.371736
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 23caea6117f48534a97d712103c3d151,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 23caea6117f48534a97d712103c3d151,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 23caea6117f48534a97d712103c3d151,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 23caea6117f48534a97d712103c3d151,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 23caea6117f48534a97d712103c3d151,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 23caea6117f48534a97d712103c3d151,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 23caea6117f48534a97d712103c3d151,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 23caea6117f48534a97d712103c3d151,
+        type: 3}
+      propertyPath: m_Name
+      value: Choco1-4 Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 23caea6117f48534a97d712103c3d151, type: 3}
+--- !u!1 &1304421593872575365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23caea6117f48534a97d712103c3d151,
+    type: 3}
+  m_PrefabInstance: {fileID: 2223464671712810708}
+  m_PrefabAsset: {fileID: 0}

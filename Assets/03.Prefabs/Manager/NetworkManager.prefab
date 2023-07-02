@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7041147699939409600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7041147699939409601}
+  - component: {fileID: 7041147699939409602}
+  - component: {fileID: 1515214545}
+  m_Layer: 0
+  m_Name: NetworkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7041147699939409601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7041147699939409600}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7041147699939409602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7041147699939409600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e720ea57c3470204b96d7607bcc9b16b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Players: []
+  MyPlayer: {fileID: 0}
+  mainPlayer: {fileID: 8502466233864936856, guid: 9a8c485309d522a4db17f1eb83f810c6,
+    type: 3}
+  playerPrefab: {fileID: 4242978240713361811, guid: 066289e545984d243b56419b160e8ec4,
+    type: 3}
+  DisconnectPanel: {fileID: 0}
+  NickNameInput: {fileID: 0}
+  LobbyPanel: {fileID: 0}
+  SoloBtn: {fileID: 0}
+  TeamBtn: {fileID: 0}
+  MatchBtn: {fileID: 0}
+  LoadingPanel: {fileID: 0}
+  InfoImg: {fileID: 0}
+  InfoTxt: {fileID: 0}
+  loadingTxt: {fileID: 0}
+  RoomPanel: {fileID: 0}
+  RoomInfoTxt: {fileID: 0}
+  ChatPanel: {fileID: 0}
+  ChatTxts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ChatInput: {fileID: 0}
+  CountdownPanel: {fileID: 0}
+  CountdownTxt: {fileID: 0}
+  MasterPanel: {fileID: 0}
+  minPlayerCount: 2
+  PV: {fileID: 1515214545}
+--- !u!114 &1515214545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7041147699939409600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 0
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
